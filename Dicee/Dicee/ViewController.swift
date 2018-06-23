@@ -22,6 +22,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let square = UIView(frame: CGRect(x:0, y : 0, width: 50, height : 50))
+        square.backgroundColor = UIColor.red
+        self.view.addSubview(square)
+        
         // Do any additional setup after loading the view, typically from a nib.
         updateDiceImages()
         
