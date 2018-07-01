@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32A787B020E3EA6A002CD40E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A787AF20E3EA6A002CD40E /* main.swift */; };
-		32A787B720E3EB2F002CD40E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A787B620E3EB2F002CD40E /* Car.swift */; };
-		32C7C31720E97C19005B58DE /* SelfDrivingCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7C31620E97C19005B58DE /* SelfDrivingCar.swift */; };
+		32C7C32520E97DEC005B58DE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7C32420E97DEC005B58DE /* main.swift */; };
+		32C7C32C20E97E27005B58DE /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7C32B20E97E27005B58DE /* Animals.swift */; };
+		32C7C32E20E97E71005B58DE /* Birds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7C32D20E97E71005B58DE /* Birds.swift */; };
+		32C7C33020E97EA9005B58DE /* Mammals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7C32F20E97EA9005B58DE /* Mammals.swift */; };
+		32C7C33220E97EE0005B58DE /* Humans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7C33120E97EE0005B58DE /* Humans.swift */; };
+		32C7C33420E97F4B005B58DE /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7C33320E97F4B005B58DE /* Fish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		32A787AA20E3EA6A002CD40E /* CopyFiles */ = {
+		32C7C31F20E97DEC005B58DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,14 +28,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		32A787AC20E3EA6A002CD40E /* Classes and Objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classes and Objects"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32A787AF20E3EA6A002CD40E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		32A787B620E3EB2F002CD40E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		32C7C31620E97C19005B58DE /* SelfDrivingCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfDrivingCar.swift; sourceTree = "<group>"; };
+		32C7C32120E97DEC005B58DE /* InheritanceAnimalEx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InheritanceAnimalEx; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C7C32420E97DEC005B58DE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		32C7C32B20E97E27005B58DE /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		32C7C32D20E97E71005B58DE /* Birds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birds.swift; sourceTree = "<group>"; };
+		32C7C32F20E97EA9005B58DE /* Mammals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mammals.swift; sourceTree = "<group>"; };
+		32C7C33120E97EE0005B58DE /* Humans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humans.swift; sourceTree = "<group>"; };
+		32C7C33320E97F4B005B58DE /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32A787A920E3EA6A002CD40E /* Frameworks */ = {
+		32C7C31E20E97DEC005B58DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,99 +48,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32A787A320E3EA6A002CD40E = {
+		32C7C31820E97DEC005B58DE = {
 			isa = PBXGroup;
 			children = (
-				32A787AE20E3EA6A002CD40E /* Classes and Objects */,
-				32A787AD20E3EA6A002CD40E /* Products */,
+				32C7C32320E97DEC005B58DE /* InheritanceAnimalEx */,
+				32C7C32220E97DEC005B58DE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		32A787AD20E3EA6A002CD40E /* Products */ = {
+		32C7C32220E97DEC005B58DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32A787AC20E3EA6A002CD40E /* Classes and Objects */,
+				32C7C32120E97DEC005B58DE /* InheritanceAnimalEx */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32A787AE20E3EA6A002CD40E /* Classes and Objects */ = {
+		32C7C32320E97DEC005B58DE /* InheritanceAnimalEx */ = {
 			isa = PBXGroup;
 			children = (
-				32A787AF20E3EA6A002CD40E /* main.swift */,
-				32A787B620E3EB2F002CD40E /* Car.swift */,
-				32C7C31620E97C19005B58DE /* SelfDrivingCar.swift */,
+				32C7C32420E97DEC005B58DE /* main.swift */,
+				32C7C32B20E97E27005B58DE /* Animals.swift */,
+				32C7C32D20E97E71005B58DE /* Birds.swift */,
+				32C7C32F20E97EA9005B58DE /* Mammals.swift */,
+				32C7C33120E97EE0005B58DE /* Humans.swift */,
+				32C7C33320E97F4B005B58DE /* Fish.swift */,
 			);
-			path = "Classes and Objects";
+			path = InheritanceAnimalEx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32A787AB20E3EA6A002CD40E /* Classes and Objects */ = {
+		32C7C32020E97DEC005B58DE /* InheritanceAnimalEx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32A787B320E3EA6A002CD40E /* Build configuration list for PBXNativeTarget "Classes and Objects" */;
+			buildConfigurationList = 32C7C32820E97DEC005B58DE /* Build configuration list for PBXNativeTarget "InheritanceAnimalEx" */;
 			buildPhases = (
-				32A787A820E3EA6A002CD40E /* Sources */,
-				32A787A920E3EA6A002CD40E /* Frameworks */,
-				32A787AA20E3EA6A002CD40E /* CopyFiles */,
+				32C7C31D20E97DEC005B58DE /* Sources */,
+				32C7C31E20E97DEC005B58DE /* Frameworks */,
+				32C7C31F20E97DEC005B58DE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Classes and Objects";
-			productName = "Classes and Objects";
-			productReference = 32A787AC20E3EA6A002CD40E /* Classes and Objects */;
+			name = InheritanceAnimalEx;
+			productName = InheritanceAnimalEx;
+			productReference = 32C7C32120E97DEC005B58DE /* InheritanceAnimalEx */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		32A787A420E3EA6A002CD40E /* Project object */ = {
+		32C7C31920E97DEC005B58DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Jankowski;
 				TargetAttributes = {
-					32A787AB20E3EA6A002CD40E = {
+					32C7C32020E97DEC005B58DE = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 32A787A720E3EA6A002CD40E /* Build configuration list for PBXProject "Classes and Objects" */;
+			buildConfigurationList = 32C7C31C20E97DEC005B58DE /* Build configuration list for PBXProject "InheritanceAnimalEx" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 32A787A320E3EA6A002CD40E;
-			productRefGroup = 32A787AD20E3EA6A002CD40E /* Products */;
+			mainGroup = 32C7C31820E97DEC005B58DE;
+			productRefGroup = 32C7C32220E97DEC005B58DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32A787AB20E3EA6A002CD40E /* Classes and Objects */,
+				32C7C32020E97DEC005B58DE /* InheritanceAnimalEx */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32A787A820E3EA6A002CD40E /* Sources */ = {
+		32C7C31D20E97DEC005B58DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A787B720E3EB2F002CD40E /* Car.swift in Sources */,
-				32C7C31720E97C19005B58DE /* SelfDrivingCar.swift in Sources */,
-				32A787B020E3EA6A002CD40E /* main.swift in Sources */,
+				32C7C33020E97EA9005B58DE /* Mammals.swift in Sources */,
+				32C7C33420E97F4B005B58DE /* Fish.swift in Sources */,
+				32C7C32520E97DEC005B58DE /* main.swift in Sources */,
+				32C7C33220E97EE0005B58DE /* Humans.swift in Sources */,
+				32C7C32C20E97E27005B58DE /* Animals.swift in Sources */,
+				32C7C32E20E97E71005B58DE /* Birds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		32A787B120E3EA6A002CD40E /* Debug */ = {
+		32C7C32620E97DEC005B58DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		32A787B220E3EA6A002CD40E /* Release */ = {
+		32C7C32720E97DEC005B58DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +259,7 @@
 			};
 			name = Release;
 		};
-		32A787B420E3EA6A002CD40E /* Debug */ = {
+		32C7C32920E97DEC005B58DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,7 +269,7 @@
 			};
 			name = Debug;
 		};
-		32A787B520E3EA6A002CD40E /* Release */ = {
+		32C7C32A20E97DEC005B58DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -270,25 +282,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32A787A720E3EA6A002CD40E /* Build configuration list for PBXProject "Classes and Objects" */ = {
+		32C7C31C20E97DEC005B58DE /* Build configuration list for PBXProject "InheritanceAnimalEx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32A787B120E3EA6A002CD40E /* Debug */,
-				32A787B220E3EA6A002CD40E /* Release */,
+				32C7C32620E97DEC005B58DE /* Debug */,
+				32C7C32720E97DEC005B58DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32A787B320E3EA6A002CD40E /* Build configuration list for PBXNativeTarget "Classes and Objects" */ = {
+		32C7C32820E97DEC005B58DE /* Build configuration list for PBXNativeTarget "InheritanceAnimalEx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32A787B420E3EA6A002CD40E /* Debug */,
-				32A787B520E3EA6A002CD40E /* Release */,
+				32C7C32920E97DEC005B58DE /* Debug */,
+				32C7C32A20E97DEC005B58DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 32A787A420E3EA6A002CD40E /* Project object */;
+	rootObject = 32C7C31920E97DEC005B58DE /* Project object */;
 }
